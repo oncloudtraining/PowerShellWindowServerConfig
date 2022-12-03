@@ -1,0 +1,2 @@
+Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled True
+Set-NetFirewallRule -Name FPS-ICMP4-ERQ-In, RemoteDesktop-UserMode-In-TCP, WINRM-HTTP-In-TCP, WINRM-HTTP-In-TCP-PUBLIC, IIS-WebServerRole-QUIC-In-UDP, IIS-WebServerRole-HTTPS-In-TCP, IIS-WebServerRole-HTTP-In-TCP, OpenSSH-Server-In-TCP -Enabled True
